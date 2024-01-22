@@ -1,0 +1,21 @@
+{
+  "name": "wa-broadcast-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon whatsapp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0",
+    "nodemon": "^2.0.22",
+    "npm": "^6.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#152f0a64cdffdfb4d638043f537f87b2a6ebc492"
+  }
+}
